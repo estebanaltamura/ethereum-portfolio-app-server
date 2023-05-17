@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ethereum-portfolio-app",
+  "private_key_id": "5a142f203b80c4d6b9c137cfb204ccc32285b348",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDFV0Rv/2nm397n\n5iiefyRJhI6NPnyQG7yiN5qQ2X5zYc0xEDlrUa4jlmc8wWJgyC9NOXG1uCBiuqDi\nFyOs3+Dxatxexs+HNN7kG9kauWhqDvIdneLiwA49DlPvov8KlZUQH9EwsldB+vKI\n3xJ6tsZZm8szUoSFhJgKOOwePCLRwYhK8H8oVs6UvGLawfH4E1x+DxEv94v+d3jN\n0Q9S66l/gh4/o/gDNI/PIAS70YT228v/55T1uvJGTAsy0NY+hdqiMD711nRDqbO+\nUsFeyTlXUVzif+TtOQRNu0q+zege0/rzSIvGezNUkFEmQzGXI6qEL9yUMx3MghGS\nfLS2M9d9AgMBAAECggEACzxuSaA10+7wPqz0qB2eH8973F/v8LablXLsCo5PrFsn\nt0DwvAMREraoFyX9p3wOcWuxZULgGS7+JRFjNx8iLCzE8mKIg27HuB47zNE8uDk0\noOoR9o4v4VsU/WJ++gfNTnc5TngBDuEueQuWfkU04vpDZh8vK3kCvSZDj28mHmI4\nVXb677eaeB4APYEmDLJku3yP4lUDb6ZQ2nbk2iWDUsBaQj/VnOrOgDcIu9MnvLaR\nnDwzmfaOdIKYXD7rp1KtTYF9g7wiBIv5iU0lfpGuBzLqeJIEP2M7oDaV4yzBE+Nu\nFFO2tk6DlrE1BJXN7mC2GxNRkCwUzfY96W6fWvxM0wKBgQD6UPcEIDW1zgFRT2yb\nWRmmwwIkj7ox5oTG8Lw+Znd5Opq1RYuuiPLI5ffpH8ojsAOm9ZCkk9UOM+1VXA9Q\n/XZaJp0LlnTJJjim9waT5//yoZkyQ2mHZ67f9nj1TeaTaLfcS2qoL4m/fKEVpHYD\n+6awhMUmkqSOVqBLC7DDEux7DwKBgQDJ0l4qVq3uKEoNJzY45CrnlJyGEYxMSvBL\nG7No0Aa7LSeOHp7mU26U7jJeKod+7FVK47pTINCykY92j8PB0NWOZaK0O1qM6psQ\nmfiqNSdK+MAc74cYlH8y0fqrNsBG+wXtnqdPm2MR3Hn4zYT4W3hHOjd0E8L57sLP\nFxrsR3l0swKBgErM5wPUnDg31yz1Dv9dIM00eO90A6/lssfAKIB9HjabzJ9eqN7/\nDY37Kpn/ZehEMNMzjoWfp4sW+VUIrYsGMte9sjBERaHWSheaudx494MJxz2950sP\nMLK8dGjZXo2uPUMXRkf77K3MEFbnTlziVm1pP4DHUWU3fa7vT2L7xK8BAoGAPOD5\nSLo24yVCGS+f2o9xJcQdZw+6C3V7gJyNhOtjbGjVirhP5Fh8fe5QQTmA/9dYbyu8\nk8DNU2A3L2N0gG13Ten4p3dT/Df0qJBZgzZfcO0SPmg+jzqUGAdhHu54F7E2+5Ol\nEo1j2ApyvIt6NdSZtpqoCZrAcNYF66QjmeyBhaMCgYBfyD38hAVY7avjHO8m6/Gh\nXtYeNlqkz/yGKSUtR+I1lgotIoSz9Iv/n4rTi2t4xmMD+pMh+OP+3a6aSuwFPBF/\nSVq0dS38h1+FVjwmW9wWqtd+f3SXVAF0qnuwwgDPbL8FwoLF9UB2oCQfFcE49NBA\nz4p12YTsEEZsDlEX33nHrg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-h3ah9@ethereum-portfolio-app.iam.gserviceaccount.com",
+  "client_id": "100660421591223985704",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-h3ah9%40ethereum-portfolio-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
