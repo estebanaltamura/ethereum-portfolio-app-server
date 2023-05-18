@@ -13,7 +13,7 @@ const server = http.createServer(async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    res.setHeader('Content-Type', 'text/plain');
+    res.setHeader('application/json');
     const url = req.url
     const param1 = url.split("/")[1]
     const param2 = url.split("/")[2]
