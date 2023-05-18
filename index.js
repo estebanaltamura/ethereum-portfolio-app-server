@@ -23,7 +23,11 @@ const server = http.createServer(async (req, res) => {
     const updatedData = await getUpdatedData.updatedData()
         
     if(typeof updatedData === "object"){
-      if(param1 === "LIST"){
+      if(param1 === "ALL"){
+        res.statusCode = 200;  // OK
+        res.end(JSON.stringify({data: updatedData.data, sinchronicityStatus: updatedData.sinchronicityStatus, delayApi:updatedData.delayApi, message:updatedData.message}))        
+        }
+      else if(param1 === "LIST"){
         res.statusCode = 200;  // OK
         res.end(JSON.stringify({data: Object.keys(updatedData.data), sinchronicityStatus: updatedData.sinchronicityStatus, delayApi:updatedData.delayApi, message:updatedData.message}))        
       }
