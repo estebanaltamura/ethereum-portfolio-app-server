@@ -34,7 +34,7 @@ const server = http.createServer(async (req, res) => {
  
 });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 server.listen(port, () => {
   
   console.log(`Servidor HTTP escuchando en el puerto ${port}`);
