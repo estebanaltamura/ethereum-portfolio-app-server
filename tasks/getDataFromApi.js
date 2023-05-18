@@ -44,7 +44,7 @@ const getDataFromApi = async ()=>{
   }
   
   catch(error){
-    console.log("error intentando traer data de la api de coinmarketcap")
+    console.log("error intentando traer data de la api de coinmarketcap", error)
     return null
   }
 

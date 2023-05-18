@@ -9,7 +9,8 @@ let updatedData
 const getUpdatedData = ()=>{
     
     setInterval(async()=>{
-        const dataFromApi = await getDataFromApi()
+        const dataFromApi = null;
+        //const dataFromApi = await getDataFromApi()
 
         if(dataFromApi !== null){
             await updateFirebase(dataFromApi)

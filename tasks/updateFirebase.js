@@ -8,7 +8,7 @@ const updateFirebase = async (latestDataFromApi)=> {
         await docRef.update(data)       
     } 
     catch (error){
-        console.log("error intentando actualizar firebase")
+        console.log("error intentando actualizar firebase", error)
         return null
     }
     
