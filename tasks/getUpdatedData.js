@@ -22,7 +22,7 @@ const getUpdatedData = ()=>{
                 "data":dataFromApi, 
                 "sinchronicityStatus": true, 
                 "delayApi":delay, 
-                "message": delay < 4 ? `The information service works ok` : `Our information service is having delays. The information shown is from ${delay} minutes ago` 
+                "message": delay < 5 ? `The information service works ok` : `Our information service is having delays. The information shown is from ${delay} minutes ago` 
             }
         }
         else{
