@@ -1,14 +1,13 @@
 const db = require("../config/firebase")
 
 
-const updateFirebase = async (latestDataFromApi)=> { 
+const updateFirebase = async (data, collection, document)=> { 
     try{
-        const docRef = db.collection('lastData').doc("lastDataCurrencies");
-        const data = latestDataFromApi
+        const docRef = db.collection(collection).doc(document);
         await docRef.update(data)       
     } 
     catch (error){
-        console.log("error intentando actualizar firebase", error)
+        console.log(`error intentando actualizar firebase para la coleccion ${collection} en el documento ${document}`, error)
         return null
     }
     

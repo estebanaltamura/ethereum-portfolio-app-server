@@ -52,7 +52,7 @@ const server = http.createServer(async (req, res) => {
       }
     }
     else{
-      res.statusCode = 500;  // BAD REQUEST
+      //res.statusCode = 500;  // BAD REQUEST
       res.end("The server is not able to fulfil the request")
     }
     
