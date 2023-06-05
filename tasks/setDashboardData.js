@@ -1,5 +1,5 @@
 const axios = require('axios');
-const getPairs = require("./getPairs.js")
+const getBinanceValidPairs = require("./getBinanceValidPairs.js")
 
 
 /*
@@ -11,10 +11,11 @@ intervalo de 4 segundos{
 }
 
 */
-getPairs.getPairs()
+
 
 const getDashboardData = async()=>{
-    
+    //const await getBinanceValidPairs.getBinanceValidPairs()
+
     setInterval(async()=>{
         try{
             const pairsRequest = await getPairs.pairs()

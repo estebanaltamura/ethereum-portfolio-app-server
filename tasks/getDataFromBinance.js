@@ -8,7 +8,7 @@ const getDataFromBinance = async (symbols)=>{
   
       const dataBinance = {}
       
-      console.log(response.data )
+      
 
       const symbolsbinance = response.data        
         .map(element =>{
